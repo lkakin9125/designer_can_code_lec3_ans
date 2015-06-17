@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/trans_pad"
+        android:left="@dimen/trans_pad"
+        android:right="@dimen/trans_pad"
+        android:top="@dimen/trans_pad">
+        <!--<inset-->
+            <!--android:inset="@dimen/btn_padding">-->
+            <shape android:shape="rectangle">
+                <corners android:radius="5dp" />
+                <solid android:color="@color/accent" />
+                <padding
+                    android:bottom="@dimen/btn_padding"
+                    android:left="@dimen/btn_padding"
+                    android:right="@dimen/btn_padding"
+                    android:top="@dimen/btn_padding" />
+            </shape>
+        <!--</inset>-->
+    </item>
+</layer-list>

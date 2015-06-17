@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!--id is for the programming call-->
+    <!--title is for in case the icon cannot display or-->
+    <!--long press word showing-->
+    <!--icon is the icon show in menu. it can be empty and the title will be show-->
+    <!--app:showAsAction is control the this item show or not-->
+    <!--if item do not show, it will be the item in the menu inside ... menu-->
+    <item android:id="@+id/action_refresh" android:title="@string/refresh"
+        android:icon="@drawable/ic_refresh" app:showAsAction="always" />
+</menu>
